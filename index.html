@@ -1,0 +1,118 @@
+<!-- <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script> -->
+
+<!-- 
+Hello Camper!
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+- The freeCodeCamp Team 
+-->
+<html>
+
+<head>
+    <div class="container" id="header">
+  <title>FCC: Survey Form</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.80/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family= Roboto" rel="stylesheet">
+
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="header-footer">
+      <div class="header">
+        <h1 id="title">DesignIsOrion Survey</h1>
+      </div>
+    </header>
+
+
+      <div class="main">
+        <p id="description">Tell us your feedback of DesignIsOrion.com</p>
+
+        <div id="form-area">
+          <form id="survey-form">
+            <div class="form-item">
+              <label id="name-label" for="name">Name:</label></br>
+              <input id="name" type="text" name="name" required placeholder="Your name"></br>
+
+              <label id="email-label" for="email">Email:</label></br>
+              <input id="email" type="email" name="email" required placeholder="email@example.com"></br>
+
+              <label id="number-label" for="number">Age:</label></br>
+              <input id="number" type="number" name="number" max="999" min="0" placeholder="30"></br>
+            </div>
+
+            <!-- select box -->
+            <div class="form-item">
+              <label id="dropdown-label" for="dropdown">What service would you inquire about?</label></br>
+              <select id="dropdown">
+                <option value="" disabled selected>Select an option</option>
+                <option value="1">Web Development</option>
+                <option value="2">App Development</option>
+                <option value="3">Graphic Design</option>
+                <option value="4">Social Media Marketing</option>
+                <option value="5">Other</option>
+              </select></br>
+            </div>
+
+            <!-- radio button -->
+            <div class="form-item">
+              <label>What did you expect from DesignIsOrion.com?</label></br>
+              <input type="radio" name="recommend" value="0">Blog Topics of Web Development</br>
+              <input type="radio" name="recommend" value="1">Web Development Projects</br>
+              <input type="radio" name="recommend" value="2">Graphic Design Projects</br>
+              <input type="radio" name="recommend" value="3">Other</br>
+            </div>
+
+            <!-- checkbox -->
+            <div class="form-item">
+              <label>Where can DesignIsOrion.com improve?</label></br>
+              <input type="checkbox" name="improve" value="0">Customer Service</br>
+              <input type="checkbox" name="improve" value="1">Blog Post</br>
+              <input type="checkbox" name="improve" value="2">Web Development Projects</br>
+              <input type="checkbox" name="improve" value="3">Other</br>
+            </div>
+
+            <!-- textarea -->
+            <div class="form-item">
+              <label id="comment-label" for="comment">Comment:</label></br>
+              <textarea id="comment" rows="3"></textarea>
+            </div>
+
+            <div id="submit-btn">
+              <input id="submit" class="button" type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+        <!-- end form-area -->
+
+      </div>
+
+    </main>
+
+    <footer class="header-footer">
+      <div class="footer">
+        <div class="center">
+          &copy; 2020 DesignIsOrion | All Rights Reserved.
+      </div>
+    </footer>
+
+  </div>
+</div>
+</body>
+
+</html>
