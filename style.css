@@ -1,11 +1,11 @@
 .container {
   display: flex;
   flex-direction: column;
+  color: #6f5936;
+  background-color: #484646;
   align-items: center;
   padding: 3rem 0;
   font-family: "Roboto" sans-serif;
-  --main-color: #6f5936;
-  background-color: #484646;
 }
 
 a:link {
@@ -57,7 +57,7 @@ label {
   border-radius: 8px;
   color: white;
   padding: 10px 20px;
-  background-color: var(--main-color);
+  background-color: #6f5936;
   border: none;
 }
 
